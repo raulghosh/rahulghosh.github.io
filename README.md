@@ -1,5 +1,7 @@
 ## Welcome to my personal webpage
 
-### I like solving pressing problems. My professional journey began in the financial markets in 2011. For me they were and still are one of the most interesting problems to solve. The only difference now is that technology has enabled us to solve some equalling pressing and challenging problems which once were thought to be too complex to be attempted by a machine.
+### I like solving problems to create value and generate revenue. I worked in the financial services industries for almost a decade. From deploying capital as a trader to serving clients as a fixed income and currencies salesman, I was always involved in high stake decision making roles.
 
-### I love finding problems and solving them. In my opinion AI and machine learning have unleased a new wave of value creation.  With that assumption I have set sail on a journey expecting to quench my thirst for curiousity.
+### Long time ago, one of my university professor taught me an important lesson. Productivity = Natural Resource x Human Effort^Tools. I consider a huge part of human being's success comes from knowing and utilizing tools. With that in mind I decided to equip myself with the tools of AI and ML.
+
+### Let's solve the pressing problems of the world
