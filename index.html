@@ -11,6 +11,30 @@
             border-top: 2px solid #000;
             padding-top: 20px;
         }
+        .tab {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            cursor: pointer;
+        }
+        .tab.active {
+            background-color: #f0f0f0;
+            border-top: 2px solid blue;
+        }
+        #subpage-content {
+            border-top: 2px solid #000;
+            padding-top: 20px;
+        }
+        /* Hide sections by default */
+        .tab-content {
+            display: none;
+        }
+        /* Show active section */
+        .tab-content.active {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -19,12 +43,11 @@
             <li><strong>Menu</strong></li>
         </ul>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
+            <li class="tab active" data-target="#about">About Me</li>
+            <li class="tab" data-target="#cv">CV</li>
+            <li class="tab" data-target="#projects">Projects</li>
+            <li class="tab" data-target="#blog">Blog</li>
+            <li class="tab"
     </nav>
     <main class="container">
         <div id="subpage-content">
