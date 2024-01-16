@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Your Personal Webpage</title>
+    <title>Rahul Ghosh's Personal Webpage</title>
+    <style>
+        #subpage-content {
+            margin-top: 20px;
+            border-top: 2px solid #000;
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <nav class="container-fluid">
@@ -12,59 +19,28 @@
             <li><strong>Menu</strong></li>
         </ul>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#CV">CV</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#blog">Blog</a></li>
-            <li><a href="#social">Social</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
-
         </ul>
     </nav>
     <main class="container">
-        <div class="grid">
+        <div id="subpage-content">
+            <!-- About Me Section -->
             <section id="about">
-                <hgroup>
-                    <h2>About Me</h2>
-                    <h3>Your Professional Summary</h3>
-                </hgroup>
-                <p>A brief introduction about your professional background, skills, and achievements. This section is your chance to make a strong first impression to recruiters.</p>
-                <figure>
-                    <img src="ProfilePicture.jpg" alt="Rahul Ghosh" />
-                    <figcaption>Your Name</figcaption>
-                </figure>
+                <h2>About Me</h2>
+                <p>Your professional summary goes here.</p>
             </section>
-            <section id="CV">
-                <hgroup>
-                    <h2>Check Out my CV</h2>
-                    <h3>MY CV</h3>
-                </hgroup>
-                <p>Upload your complete CV here</p>
+
+            <!-- CV Section -->
+            <section id="cv" style="display:none;">
+                <h2>CV</h2>
+                <p>Details about your CV or a link to download it.</p>
             </section>
-            <section id="blog">
-                <hgroup>
-                    <h2>Blog</h2>
-                    <h3>My Thoughts and Experiences</h3>
-                </hgroup>
-                <p>Here you can post and update your blog entries, sharing your insights, experiences, and ideas with visitors.</p>
-            </section>
-                                <section id="social">
-                <hgroup>
-                    <h2>Social Links</h2>
-                    <h3>Connect with Me</h3>
-                </hgroup>
-                <p>Links to your professional social media profiles like LinkedIn, GitHub, Twitter, etc.</p>
-            </section>
-            <section id="hobbies">
-                <hgroup>
-                    <h2>Hobbies & Interests</h2>
-                    <h3>What I Love Doing</h3>
-                </hgroup>
-                <p>A showcase of your hobbies and interests outside of work.</p>
-            </section>
-        </div>
-    </main>
-    <footer class="container">
-        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
-    </footer>
-</body>
-</html>
+
+            <!-- Projects Section -->
+            <section id="projects" style="display:none;">
+                <h2>Projects</h2>
+                <p>Information about your
