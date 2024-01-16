@@ -43,4 +43,37 @@
             <!-- Projects Section -->
             <section id="projects" style="display:none;">
                 <h2>Projects</h2>
-                <p>Information about your
+                <p>Information about your projects, including descriptions and links to GitHub repositories, if applicable.</p>
+            </section>
+
+            <!-- Blog Section -->
+            <section id="blog" style="display:none;">
+                <h2>Blog</h2>
+                <p>Links to your latest blog posts or blog content.</p>
+            </section>
+
+            <!-- Hobbies Section -->
+            <section id="hobbies" style="display:none;">
+                <h2>Hobbies</h2>
+                <p>Details about your hobbies and interests.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                let targetSection = document.querySelector(this.getAttribute('href'));
+                document.querySelectorAll('main #subpage-content section').forEach(section => {
+                    section.style.display = 'none';
+                });
+                targetSection.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
