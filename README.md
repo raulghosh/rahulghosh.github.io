@@ -11,3 +11,6 @@
 ![GitHub Streak](https://streak-stats.demolab.com?user=raulghosh&theme=dark)
 
 ![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=yourusername.yourusername)
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
